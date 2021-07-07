@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-square-matrix",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Test if a value is a 2-dimensional ndarray-like object having equal dimensions.",
   "license": "Apache-2.0",
   "author": {

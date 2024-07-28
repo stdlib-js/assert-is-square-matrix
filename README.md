@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isSquareMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-matrix@deno/mod.js';
+import isSquareMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-matrix@v0.2.2-deno/mod.js';
 ```
 
 #### isSquareMatrix( value )
@@ -69,7 +69,7 @@ var bool = isSquareMatrix( arr );
 
 ```javascript
 import ndarray from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-ctor@deno/mod.js';
-import isSquareMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-matrix@deno/mod.js';
+import isSquareMatrix from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-square-matrix@v0.2.2-deno/mod.js';
 
 var arr = ndarray( 'generic', [ 0, 0, 0, 0 ], [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
 var out = isSquareMatrix( arr );
